@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/cmake_install.cmake",
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/pybind11/cmake_install.cmake",
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/matplotplusplus/cmake_install.cmake",
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/matplotplusplus/source/cmake_install.cmake",
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/matplotplusplus/source/3rd_party/cmake_install.cmake",
+		"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/matplotplusplus/source/matplot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

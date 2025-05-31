@@ -1,0 +1,793 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+      Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:39.
+      
+      Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu ÔÇ×Debug\\ÔÇŁ.
+        Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu ÔÇ×Debug\\CompilerIdC.tlog\\ÔÇŁ.
+      InitializeBuildStatus:
+        Trwa tworzenie ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+        Modyfikowanie ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku ÔÇ×Debug\\CompilerIdC.tlog\\unsuccessfulbuildÔÇŁ.
+        Modyfikowanie ÔÇ×Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstateÔÇŁ.
+      Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+      
+      Kompilacja powiod┼éa si─Ö.
+          Ostrze┼╝enia: 0
+          Liczba b┼é─Öd├│w: 0
+      
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.48
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/4.0.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+      Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:40.
+      
+      Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu ÔÇ×Debug\\ÔÇŁ.
+        Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu ÔÇ×Debug\\CompilerIdCXX.tlog\\ÔÇŁ.
+      InitializeBuildStatus:
+        Trwa tworzenie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku ÔÇ×Debug\\CompilerIdCXX.tlog\\unsuccessfulbuildÔÇŁ.
+        Modyfikowanie ÔÇ×Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstateÔÇŁ.
+      Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+      
+      Kompilacja powiod┼éa si─Ö.
+          Ostrze┼╝enia: 0
+          Liczba b┼é─Öd├│w: 0
+      
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/4.0.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-h1zu0e"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-h1zu0e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-h1zu0e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_176f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:40.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zu0e\\cmTC_176f5.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_176f5.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zu0e\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_176f5.dir\\Debug\\cmTC_176f5.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_176f5.dir\\Debug\\cmTC_176f5.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_176f5.dir\\Debug\\cmTC_176f5.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_176f5.dir\\Debug\\\\" /Fd"cmTC_176f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_176f5.dir\\Debug\\\\" /Fd"cmTC_176f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zu0e\\Debug\\cmTC_176f5.exe" /INCREMENTAL /ILK:"cmTC_176f5.dir\\Debug\\cmTC_176f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-h1zu0e/Debug/cmTC_176f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-h1zu0e/Debug/cmTC_176f5.lib" /MACHINE:X64  /machine:x64 cmTC_176f5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_176f5.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zu0e\\Debug\\cmTC_176f5.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_176f5.dir\\Debug\\cmTC_176f5.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_176f5.dir\\Debug\\cmTC_176f5.tlog\\cmTC_176f5.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zu0e\\cmTC_176f5.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ubp6in"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ubp6in"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ubp6in'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4bdfb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:41.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubp6in\\cmTC_4bdfb.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_4bdfb.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubp6in\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4bdfb.dir\\Debug\\\\" /Fd"cmTC_4bdfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4bdfb.dir\\Debug\\\\" /Fd"cmTC_4bdfb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubp6in\\Debug\\cmTC_4bdfb.exe" /INCREMENTAL /ILK:"cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ubp6in/Debug/cmTC_4bdfb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-ubp6in/Debug/cmTC_4bdfb.lib" /MACHINE:X64  /machine:x64 cmTC_4bdfb.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4bdfb.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubp6in\\Debug\\cmTC_4bdfb.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_4bdfb.dir\\Debug\\cmTC_4bdfb.tlog\\cmTC_4bdfb.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubp6in\\cmTC_4bdfb.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:318 (check_cxx_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:385 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "pybind11/tools/pybind11Common.cmake:419 (_pybind11_generate_lto)"
+      - "pybind11/CMakeLists.txt:295 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-9pmp65"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-9pmp65"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-9pmp65'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c44e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:44.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\cmTC_c44e1.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_c44e1.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_c44e1.dir\\Debug\\cmTC_c44e1.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_c44e1.dir\\Debug\\cmTC_c44e1.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_c44e1.dir\\Debug\\cmTC_c44e1.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c44e1.dir\\Debug\\\\" /Fd"cmTC_c44e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c44e1.dir\\Debug\\\\" /Fd"cmTC_c44e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\Debug\\cmTC_c44e1.exe" /INCREMENTAL /ILK:"cmTC_c44e1.dir\\Debug\\cmTC_c44e1.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-9pmp65/Debug/cmTC_c44e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-9pmp65/Debug/cmTC_c44e1.lib" /MACHINE:X64  /machine:x64 cmTC_c44e1.dir\\Debug\\src.obj
+        LINK : warning LNK4075: zignorowano opcj─Ö "/INCREMENTAL" z powodu okre┼Ťlenia opcji "/LTCG" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\cmTC_c44e1.vcxproj]
+          Trwa generowanie kodu
+          Zako┼äczono generowanie kodu
+          cmTC_c44e1.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\Debug\\cmTC_c44e1.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_c44e1.dir\\Debug\\cmTC_c44e1.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_c44e1.dir\\Debug\\cmTC_c44e1.tlog\\cmTC_c44e1.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\cmTC_c44e1.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\cmTC_c44e1.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : warning LNK4075: zignorowano opcj─Ö "/INCREMENTAL" z powodu okre┼Ťlenia opcji "/LTCG" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9pmp65\\cmTC_c44e1.vcxproj]
+        
+            Ostrze┼╝enia: 1
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBLAS.cmake:423 (check_blas_libraries)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-68avcj"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-68avcj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-68avcj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c090a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:45.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_c090a.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_c090a.dir\\Debug\\cmTC_c090a.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_c090a.dir\\Debug\\cmTC_c090a.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_c090a.dir\\Debug\\cmTC_c090a.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c090a.dir\\Debug\\\\" /Fd"cmTC_c090a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c090a.dir\\Debug\\\\" /Fd"cmTC_c090a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\Debug\\cmTC_c090a.exe" /INCREMENTAL /ILK:"cmTC_c090a.dir\\Debug\\cmTC_c090a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-68avcj/Debug/cmTC_c090a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-68avcj/Debug/cmTC_c090a.lib" /MACHINE:X64  /machine:x64 cmTC_c090a.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewn─Ötrzny sgemm_ przywo┼éany w funkcji main [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\Debug\\cmTC_c090a.exe : fatal error LNK1120: liczba nierozpoznanych element├│w zewn─Ötrznych: 1 [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewn─Ötrzny sgemm_ przywo┼éany w funkcji main [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\Debug\\cmTC_c090a.exe : fatal error LNK1120: liczba nierozpoznanych element├│w zewn─Ötrznych: 1 [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-68avcj\\cmTC_c090a.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 2
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-a0g0di"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-a0g0di"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-a0g0di'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6c867.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:45.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\cmTC_6c867.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_6c867.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_6c867.dir\\Debug\\cmTC_6c867.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_6c867.dir\\Debug\\cmTC_6c867.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_6c867.dir\\Debug\\cmTC_6c867.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c867.dir\\Debug\\\\" /Fd"cmTC_6c867.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c867.dir\\Debug\\\\" /Fd"cmTC_6c867.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\src.c"
+          src.c
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\src.c(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\cmTC_6c867.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\cmTC_6c867.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\cmTC_6c867.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\src.c(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a0g0di\\cmTC_6c867.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-420o4e"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-420o4e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-420o4e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_662fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:46.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\cmTC_662fd.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_662fd.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_662fd.dir\\Debug\\cmTC_662fd.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_662fd.dir\\Debug\\cmTC_662fd.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_662fd.dir\\Debug\\cmTC_662fd.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_662fd.dir\\Debug\\\\" /Fd"cmTC_662fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_662fd.dir\\Debug\\\\" /Fd"cmTC_662fd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\Debug\\cmTC_662fd.exe" /INCREMENTAL /ILK:"cmTC_662fd.dir\\Debug\\cmTC_662fd.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-420o4e/Debug/cmTC_662fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-420o4e/Debug/cmTC_662fd.lib" /MACHINE:X64  /machine:x64 cmTC_662fd.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\cmTC_662fd.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\cmTC_662fd.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\cmTC_662fd.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-420o4e\\cmTC_662fd.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindBLAS.cmake:475 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-zl0w87"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-zl0w87"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-zl0w87'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b162a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:47.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\cmTC_b162a.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_b162a.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_b162a.dir\\Debug\\cmTC_b162a.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_b162a.dir\\Debug\\cmTC_b162a.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_b162a.dir\\Debug\\cmTC_b162a.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b162a.dir\\Debug\\\\" /Fd"cmTC_b162a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b162a.dir\\Debug\\\\" /Fd"cmTC_b162a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\Debug\\cmTC_b162a.exe" /INCREMENTAL /ILK:"cmTC_b162a.dir\\Debug\\cmTC_b162a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-zl0w87/Debug/cmTC_b162a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-zl0w87/Debug/cmTC_b162a.lib" /MACHINE:X64  /machine:x64 cmTC_b162a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\cmTC_b162a.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\cmTC_b162a.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\cmTC_b162a.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zl0w87\\cmTC_b162a.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:105 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-s7ejjp"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-s7ejjp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-s7ejjp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3515c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:48.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_3515c.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_3515c.dir\\Debug\\cmTC_3515c.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_3515c.dir\\Debug\\cmTC_3515c.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_3515c.dir\\Debug\\cmTC_3515c.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_3515c.dir\\Debug\\\\" /Fd"cmTC_3515c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_3515c.dir\\Debug\\\\" /Fd"cmTC_3515c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx"
+          src.cxx
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,16): error C2065: "__deprecated__": niezadeklarowany identyfikator [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,1): error C4430: brak specyfikatora typu - za┼éo┼╝ono, ┼╝e int. Uwaga: C++ nie obs┼éuguje domy┼Ťlnie typu int [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,33): error C2062: nieoczekiwany typ "int" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,48): error C2143: b┼é─ůd sk┼éadniowy: brakuje ÔÇ×;ÔÇŁ przed ÔÇ×{ÔÇŁ [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,48): error C2447: "{": brak nag┼é├│wka funkcji (stary styl formalnej listy?) [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(2,25): error C3861: "somefunc": identyfikatora nie odnaleziono [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,16): error C2065: "__deprecated__": niezadeklarowany identyfikator [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,1): error C4430: brak specyfikatora typu - za┼éo┼╝ono, ┼╝e int. Uwaga: C++ nie obs┼éuguje domy┼Ťlnie typu int [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,33): error C2062: nieoczekiwany typ "int" [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,48): error C2143: b┼é─ůd sk┼éadniowy: brakuje ÔÇ×;ÔÇŁ przed ÔÇ×{ÔÇŁ [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(1,48): error C2447: "{": brak nag┼é├│wka funkcji (stary styl formalnej listy?) [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\src.cxx(2,25): error C3861: "somefunc": identyfikatora nie odnaleziono [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7ejjp\\cmTC_3515c.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 6
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:275 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:105 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-aov1qq"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-aov1qq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-aov1qq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10ba1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:48.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\cmTC_10ba1.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_10ba1.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_10ba1.dir\\Debug\\cmTC_10ba1.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_10ba1.dir\\Debug\\cmTC_10ba1.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_10ba1.dir\\Debug\\cmTC_10ba1.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_10ba1.dir\\Debug\\\\" /Fd"cmTC_10ba1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_10ba1.dir\\Debug\\\\" /Fd"cmTC_10ba1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\src.cxx"
+          src.cxx
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\src.cxx(2,25): warning C4996: 'somefunc': zosta┼é uznany za przestarza┼éy [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\cmTC_10ba1.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\Debug\\cmTC_10ba1.exe" /INCREMENTAL /ILK:"cmTC_10ba1.dir\\Debug\\cmTC_10ba1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-aov1qq/Debug/cmTC_10ba1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-aov1qq/Debug/cmTC_10ba1.lib" /MACHINE:X64  /machine:x64 cmTC_10ba1.dir\\Debug\\src.obj
+          cmTC_10ba1.vcxproj -> C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\Debug\\cmTC_10ba1.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_10ba1.dir\\Debug\\cmTC_10ba1.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_10ba1.dir\\Debug\\cmTC_10ba1.tlog\\cmTC_10ba1.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\cmTC_10ba1.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\cmTC_10ba1.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\src.cxx(2,25): warning C4996: 'somefunc': zosta┼é uznany za przestarza┼éy [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aov1qq\\cmTC_10ba1.vcxproj]
+        
+            Ostrze┼╝enia: 1
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for __fbufsize"
+    directories:
+      source: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-5hq7a7"
+      binary: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-5hq7a7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake"
+    buildResult:
+      variable: "HAVE_FBUFSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/CMakeFiles/CMakeScratch/TryCompile-5hq7a7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5cfd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.11.9+a69bbaaf5 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 27.05.2025 18:39:49.
+        
+        Projekt ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\cmTC_5cfd6.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu ÔÇ×cmTC_5cfd6.dir\\Debug\\ÔÇŁ.
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_5cfd6.dir\\Debug\\cmTC_5cfd6.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_5cfd6.dir\\Debug\\cmTC_5cfd6.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_5cfd6.dir\\Debug\\cmTC_5cfd6.tlog\\unsuccessfulbuildÔÇŁ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cfd6.dir\\Debug\\\\" /Fd"cmTC_5cfd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.41.34120 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5cfd6.dir\\Debug\\\\" /Fd"cmTC_5cfd6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\CheckSymbolExists.c(2,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'stdio_ext.h': No such file or directory [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\cmTC_5cfd6.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\cmTC_5cfd6.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\cmTC_5cfd6.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\CheckSymbolExists.c(2,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'stdio_ext.h': No such file or directory [C:\\Users\\pc\\OneDrive\\Pulpit\\WYGRANE_podejcie_4_projekt_3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5hq7a7\\cmTC_5cfd6.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.28
+        
+      exitCode: 1
+...
