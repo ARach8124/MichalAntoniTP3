@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pc\OneDrive\Pulpit\WYGRANE_podejcie_4_projekt_3\build\CMakeFiles\abc7576a663bc7141690866bd5cc3b32\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8AD022DE-8B8D-318B-A6CA-8AF7027FA953}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

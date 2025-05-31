@@ -1,0 +1,10 @@
+^C:\USERS\PC\ONEDRIVE\PULPIT\WYGRANE_PODEJCIE_4_PROJEKT_3\BUILD\CMAKEFILES\ADCC129B137D62BB98BBB7C925DEEE98\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3 -BC:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/build/example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

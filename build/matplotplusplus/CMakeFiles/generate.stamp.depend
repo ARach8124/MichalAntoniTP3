@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/CMakeLists.txt
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions/ensure_build_type.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions/link_external_libraries.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions/project_flags.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions/sanitizers.cmake
+C:/Users/pc/OneDrive/Pulpit/WYGRANE_podejcie_4_projekt_3/matplotplusplus/cmake/functions/target_options.cmake
