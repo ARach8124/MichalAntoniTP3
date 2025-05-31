@@ -1,12 +1,11 @@
 import sys
 import os
 
-# Upewnij się, że folder z .pyd znajduje się w sys.path
 current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(current_dir, "build", "Debug"))  # lub gdziekolwiek jest .pyd
+sys.path.append(os.path.join(current_dir, "build", "Debug"))
 
 
-import example  # Twój moduł C++ z pybind11
+import example
 
 print("=== Generator sygnałów + DFT ===")
 print("Wybierz typ sygnału do narysowania:")
@@ -23,7 +22,7 @@ amplitude = float(input("Podaj amplitudę: "))
 phase = float(input("Podaj fazę (w radianach): "))
 samples = int(input("Podaj liczbę próbek: "))
 
-# Generuj sygnał i weź dane
+# Generacja sygnału
 if signal_type == "sin":
     signal = example.generate_sine(frequency, amplitude, phase, samples)
 elif signal_type == "cos":
@@ -36,7 +35,7 @@ else:
     print("Nieznany typ sygnału.")
     exit()
 
-# Rysowanie oryginalnego sygnału
+# Rysowanie sygnału
 example.plot_signal(signal, "Oryginalny sygnał")
 
 # DFT
@@ -49,10 +48,10 @@ example.plot_signal(reconstructed, "Sygnał po IDFT")
 
 
 
-# Wykryj krawędzie z progiem czułości
+# Wykrywanie krawędzi
 edges = example.detect_edges(signal, threshold=0.1)
 
-# Rysuj z krawędziami na czerwono
+# Rysowanie z zaznaczonymi krawędziami
 example.plot_signal_with_edges(signal, edges, "Sygnał z wykrytymi krawędziami")
 
 
